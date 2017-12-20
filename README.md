@@ -8,9 +8,4 @@ toplam 6 kere yanmadan bilmeye çalıştığı oyun modu.
  > Kullanıcının **"BΛŞLΛT"** butonuna basmasıyla ***yapay zeka*** sorudaki harf sayısı ve türünü öğrenir. 
 Ardından bu özelliklerle benzerlik gösteren kelimeleri belli bir algoritmayla kontrol ederek doğru kelimeyi bulmaya çalışır.  
 
-### Oyundan Fotoğraflar
-
-![Görüntü](/screenshots/welcome.png?raw=true "Hoşgeldiniz")
-![Görüntü](/screenshots/user-1.png?raw=true "Kullanıcı Modu")
-![Görüntü](/screenshots/pcmode-1.png?raw=true "Bilgisayar Modu")
-![Görüntü](/screenshots/pcmode-2.png?raw=true "Oyun Sonu - Bilgisayar Modu")
+Oyunun diğer ayrıntıları kişisel blogumda: [Adam Asmaca Oyunu · Onur's Blog](https://onuryarar.github.io/c%23/projeler/2017/12/20/adamasmaca.html)
