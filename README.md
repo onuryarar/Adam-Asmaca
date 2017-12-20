@@ -1,11 +1,16 @@
 # Adam Asmaca Oyunu
 
-Gri renk flat tasarımlı ve içinde 2 adet oyun modu bulunur. Bunlar `kullanıcı modu` ve `bilgisayar modu`.
-`kullanıcı modu` - Kullanıcının sorudaki harf sayısı ve türü belli olan kelimeyi, çöp adamın vucüt parçaları olan kafa, vucüt, 2 kol ve 2 bacak olmak üzere
-toplam 6 kere yanmadan bilmeye çalıştığı oyun modu.
-`bilgisayar modu` - Kullanıcının "BΛŞLΛT" butonuna basmasıyla <strong><em>yapay zekanın</em></strong> sorudaki harf sayısı ve türünü öğrenir
-ardından diğer kelimelerin içinden benzer özellikteki kelimeler arasından deneme-yanılma yöntemiyle doğru kelimeyi bulmaya çalışır.
+Bu oyun kapalı gri renkte, sade ve flat tasarımlıdır. İçinde, `kullanıcı modu` ve `bilgisayar modu` olmak üzere 2 adet oyun modu bulunur.  
+1. Kullanıcı Modu  
+ > Kullanıcının sorudaki harf sayısı ve türü belli olan kelimeyi, çöp adamın vucüt parçaları olan kafa, vucüt, 2 kol ve 2 bacak olmak üzere
+toplam 6 kere yanmadan bilmeye çalıştığı oyun modu.  
+2. Bilgisayar Modu  
+ > Kullanıcının **"BΛŞLΛT"** butonuna basmasıyla ***yapay zeka*** sorudaki harf sayısı ve türünü öğrenir. 
+Ardından bu özelliklerle benzerlik gösteren kelimeleri belli bir algoritmayla kontrol ederek doğru kelimeyi bulmaya çalışır.  
 
-# Başlangıç
+### Oyundan Fotoğraflar
 
-![Desktop](/screenshots/welcome.png?raw=true)
+![Görüntü](/screenshots/welcome.png?raw=true "Hoşgeldiniz")
+![Görüntü](/screenshots/user-1.png?raw=true "Kullanıcı Modu")
+![Görüntü](/screenshots/pcmode-1.png?raw=true "Bilgisayar Modu")
+![Görüntü](/screenshots/pcmode-2.png?raw=true "Oyun Sonu - Bilgisayar Modu")
