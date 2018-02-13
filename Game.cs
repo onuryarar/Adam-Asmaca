@@ -356,6 +356,22 @@ namespace AdamAsmaca
 
         void OyunBitti(bool sonuc,object sender,EventArgs e)
         {
+            //oyun bittikten sonra kelimenin tüm harflerini açar
+            foreach (Control ctrl in gbKelime.Controls)
+            {
+                if (ctrl is Label)
+                {
+                    Label lbl = (Label)ctrl;
+                    for (int i = 0; i < kelime.Length; i++)
+                    {
+                        if (lbl.Tag.ToString() == kelime[i].ToString())
+                        {
+                            lbl.Text = kelime[i].ToString();
+                        }
+                    }
+                }
+            }
+
             GameOver.finishTime = DateTime.Now.ToLongTimeString();
             GameOver gameover = new GameOver();
             galibiyet = sonuc;
@@ -369,6 +385,7 @@ namespace AdamAsmaca
                 btnTahmin.Enabled = true;
                 PCMODE.harfNo = 0;
             }
+
         }
 
 
@@ -444,6 +461,7 @@ namespace AdamAsmaca
             if (kalanHak>5)
             {
                 OyunBitti(false, sender, e);
+                
             }
 
 
